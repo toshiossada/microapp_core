@@ -12,13 +12,21 @@ dependencies:
   flutter:
     sdk: flutter
   commons_dependencies:
-    path: "../commons_dependencies"
+    git:
+      url: https://github.com/toshiossada/microapp_commons_dependencies.git
+      ref: v1.0.0
   module_splash:
-    path: "../module_splash"
+    git:
+      url: https://github.com/toshiossada/micoappp_module_splash.git
+      ref: v1.0.0
   module_login:
-    path: "../module_login"    
+    git:
+      url: https://github.com/toshiossada/micoappp_module_login.git
+      ref: v1.0.0
   module_home:
-    path: "../module_home"    
+    git:
+      url: https://github.com/toshiossada/microapp_module_home.git
+      ref: v1.0.1  
 
 dev_dependencies:
   flutter_test:

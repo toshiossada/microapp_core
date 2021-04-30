@@ -151,16 +151,20 @@ packages:
   commons:
     dependency: transitive
     description:
-      path: "../commons"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: "32ada76fe3e010c4544ec1a98d4bb03a63495a90"
+      url: "https://github.com/toshiossada/microapp_commons.git"
+    source: git
     version: "0.0.1"
   commons_dependencies:
     dependency: "direct main"
     description:
-      path: "../commons_dependencies"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: "730e821a04643242f2f69aef8ca10e0e80bc4788"
+      url: "https://github.com/toshiossada/microapp_commons_dependencies.git"
+    source: git
     version: "0.0.1"
   convert:
     dependency: transitive
@@ -406,23 +410,29 @@ packages:
   module_home:
     dependency: "direct main"
     description:
-      path: "../module_home"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.1"
+      resolved-ref: "5c4272ba9e1379df20b92a1a80fd31e71c3c210b"
+      url: "https://github.com/toshiossada/microapp_module_home.git"
+    source: git
     version: "0.0.1"
   module_login:
     dependency: "direct main"
     description:
-      path: "../module_login"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: "0ef3e234b09776b34912d274286f13638e52aaff"
+      url: "https://github.com/toshiossada/micoappp_module_login.git"
+    source: git
     version: "0.0.1"
   module_splash:
     dependency: "direct main"
     description:
-      path: "../module_splash"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: a07e32a2e9c82a76608f8337fa8abc9e5d09b698
+      url: "https://github.com/toshiossada/micoappp_module_splash.git"
+    source: git
     version: "0.0.1"
   node_preamble:
     dependency: transitive
